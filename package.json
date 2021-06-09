@@ -1,0 +1,22 @@
+{
+  "name": "swr-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Praveen <praveen@hasura.io>",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "10.0.3",
+    "npm-check-unused": "^6.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "latest",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  }
+}
