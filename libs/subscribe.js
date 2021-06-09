@@ -3,7 +3,7 @@ import { mutate } from 'swr'
 let latestData = null
 
 // setup ws and broadcast to all SWRs
-const GRAPHQL_ENDPOINT_WS = 'ws://resolved-raccoon-44.hasura.app/v1/graphql';
+const GRAPHQL_ENDPOINT_WS = 'wss://resolved-raccoon-44.hasura.app/v1/graphql';
 
 const headers = {'Content-Type': 'application/json'};
 
