@@ -1,4 +1,4 @@
-const GRAPHQL_ENDPOINT = 'http://localhost:8080/v1/graphql';
+const GRAPHQL_ENDPOINT = 'https://resolved-raccoon-44.hasura.app/v1/graphql';
 
 const headers = {'Content-Type': 'application/json'};
 
