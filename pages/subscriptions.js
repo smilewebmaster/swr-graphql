@@ -4,11 +4,10 @@ import subscribe from '../libs/subscribe'
 import useSWR from 'swr'
 
 const USER_SUBSCRIPTION = `
-  subscription {
-    users(order_by: {created_at: desc}, limit: 10) {
+  subscription Users {
+    users {
       id
       name
-      created_at
     }
   }
 `;
